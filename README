@@ -1,0 +1,29 @@
+Twitter Promotional Bot
+Created By Rid Olat
+--------------------------------------------------------
+
+A twitter bot used to promote events or to tweet specific tweets
+over a given time period. As of right now, only works on linux.
+
+This is the link to the tweety documentation, which is the API
+I used to interact with Twitter. Most information on how to link the bot
+with a twitter account is given there.
+http://pythonhosted.org/tweepy/html/
+
+How it works:
+Once you have figured out how to get the Consumer Key and Consumer Secret
+and AccessKey and Access Secret, place them into the code. They are currently
+"#"'s. Once you replace those variables with the correct values, you should be 
+able to run the bot. 
+
+Enter the text you would like to tweet in the first entry box. Make sure it is 
+WAY below 140 characters! Once entered, click Tweet This. Make sure you don't put
+in empty tweets. It will cause an error and you'll have to start all over.
+
+Once you're finished adding tweets, enter the amount of time you would like
+between tweets...a time buffer. At least 5 minutes should be given. (THIS MIGHT
+NOT WORK COMPLETELY. BUT, THE DEFAULT TIME IS 10).
+
+When ready to start, click start. It should tweet to start, then every 10 minutes, should tweet another. If it tweets the same message, an exclamation mark should be appended to it. 
+
+If you want to stop, click stop. If you want to clear the tweets, click clear.
